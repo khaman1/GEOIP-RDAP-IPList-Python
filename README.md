@@ -1,4 +1,7 @@
 # GEOIP-RDAP-IPList-Python
 This program will collect the ip addresses from a file and store them in mysql. From that, we can do queries on the database for search.
+We need to configure the connection to the database by modifying the host,user,passwd,db name in dbconnect.py
 
-Type 'python main.py -h' for help
+Finally, type 'python main.py -h' from command line for help
+
+Example: python main.py -i "Data/Text5.txt" -s NY -c region_code
