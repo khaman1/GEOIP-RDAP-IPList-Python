@@ -1,2 +1,4 @@
 # GEOIP-RDAP-IPList-Python
-The main function is in the file main.py
+This program will collect the ip addresses from a file and store them in mysql. From that, we can do queries on the database for search.
+
+Type 'python main.py -h' for help
