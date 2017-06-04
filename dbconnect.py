@@ -140,4 +140,10 @@ def db_search(table_name, column_name, keyword):
         print "NOTHING FOUND!"
         
     cursor.close()
+
     
+def db_drop(table_name):
+    db = dbconnect()
+    cursor = db.cursor()
+    cursor.execute('DROP TABLE ' + table_name)
+    cursor.close()

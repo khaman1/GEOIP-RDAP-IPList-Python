@@ -42,3 +42,5 @@ def cli(argv,TABLE_NAME):
   for arg in args:
     if arg == 'show':
       db_show(TABLE_NAME)
+    elif arg == 'drop':
+      db_drop(TABLE_NAME)
