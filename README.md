@@ -8,3 +8,4 @@ python main.py -i "Data/Text100.txt"
 python main.py show
 python main.py -s NY -c region_code
 python main.py -s NY 
+python main.py drop
